@@ -1,0 +1,25 @@
+<svg width="1200" height="750" viewBox="0 0 1200 750" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Plaża z palmą</title>
+  <desc id="desc">Prosta ilustracja plaży, morza, palmy i parasola.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#75cfff"/>
+      <stop offset="100%" stop-color="#ffe0a8"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="750" fill="url(#sky)"/>
+  <circle cx="180" cy="135" r="78" fill="#ffcf5f"/>
+  <rect y="345" width="1200" height="185" fill="#2f9ed1"/>
+  <path d="M0 405 C160 378 260 430 410 402 C570 372 680 430 830 405 C1000 376 1090 410 1200 392 L1200 530 L0 530 Z" fill="#68c8e8" opacity="0.65"/>
+  <path d="M0 510 C170 478 280 535 440 505 C610 470 760 525 920 500 C1060 480 1140 500 1200 488 L1200 750 L0 750 Z" fill="#f4d28a"/>
+  <path d="M0 590 C180 550 330 610 520 585 C720 558 850 600 1000 582 C1090 570 1155 572 1200 565 L1200 750 L0 750 Z" fill="#e8bd73"/>
+  <path d="M885 530 C930 420 915 315 875 215" stroke="#7d5431" stroke-width="34" stroke-linecap="round" fill="none"/>
+  <path d="M880 220 C780 170 725 195 680 255 C780 245 850 260 880 220 Z" fill="#24764a"/>
+  <path d="M882 220 C840 125 785 90 705 110 C780 160 825 205 882 220 Z" fill="#2f8f56"/>
+  <path d="M884 220 C930 135 1005 95 1090 120 C1005 165 950 205 884 220 Z" fill="#2f8f56"/>
+  <path d="M884 224 C970 210 1040 230 1095 295 C990 285 925 260 884 224 Z" fill="#24764a"/>
+  <path d="M305 496 L505 496 L405 390 Z" fill="#ff695f"/>
+  <path d="M405 390 L505 496 L600 496 Z" fill="#fff0a6"/>
+  <rect x="396" y="496" width="18" height="130" fill="#8a684a"/>
+  <path d="M245 625 C310 585 365 585 435 625 C365 650 310 650 245 625 Z" fill="#fff3ca" opacity="0.9"/>
+</svg>

@@ -1,0 +1,23 @@
+<svg width="1200" height="750" viewBox="0 0 1200 750" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Park z alejką</title>
+  <desc id="desc">Prosta ilustracja parku z drzewami, ławką i ścieżką.</desc>
+  <rect width="1200" height="750" fill="#bce6ff"/>
+  <circle cx="1040" cy="125" r="75" fill="#ffd45f"/>
+  <rect y="430" width="1200" height="320" fill="#63b96d"/>
+  <path d="M515 750 C550 620 585 520 610 430 C635 520 670 620 705 750 Z" fill="#e0c08c"/>
+  <path d="M470 750 C520 625 575 525 610 430 C645 525 700 625 750 750 Z" fill="#d9b079" opacity="0.65"/>
+  <rect x="135" y="342" width="38" height="155" rx="18" fill="#745238"/>
+  <circle cx="150" cy="314" r="98" fill="#2f7d5c"/>
+  <circle cx="218" cy="320" r="75" fill="#3b9f6b"/>
+  <circle cx="84" cy="340" r="72" fill="#4bae72"/>
+  <rect x="955" y="330" width="42" height="175" rx="18" fill="#745238"/>
+  <circle cx="975" cy="292" r="105" fill="#2f7d5c"/>
+  <circle cx="1040" cy="320" r="78" fill="#4bae72"/>
+  <circle cx="902" cy="325" r="70" fill="#3b9f6b"/>
+  <rect x="760" y="475" width="205" height="28" rx="12" fill="#855f43"/>
+  <rect x="785" y="515" width="155" height="24" rx="10" fill="#855f43"/>
+  <rect x="790" y="500" width="20" height="72" fill="#5c3f2d"/>
+  <rect x="915" y="500" width="20" height="72" fill="#5c3f2d"/>
+  <path d="M0 610 C240 560 400 585 585 620 C775 656 975 648 1200 590 L1200 750 L0 750 Z" fill="#4ea55d"/>
+  <path d="M0 675 C195 640 385 672 570 705 C775 740 980 712 1200 666 L1200 750 L0 750 Z" fill="#3f8f50"/>
+</svg>

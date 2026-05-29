@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Moje ulubione miejsca</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="hero__content">
+      <p class="eyebrow">Mini strona HTML + CSS</p>
+      <h1>Moje ulubione miejsca</h1>
+      <p>
+        To prosta strona z trzema fikcyjnymi miejscami. Możesz podmienić zdjęcia,
+        tytuły i opisy na własne.
+      </p>
+    </div>
+  </header>
+
+  <main class="page">
+    <section class="intro" aria-labelledby="intro-title">
+      <h2 id="intro-title">Miejsca, które chciałbym odwiedzić</h2>
+      <p>
+        Każda karta ma obrazek, nazwę miejsca, krótki opis i listę powodów,
+        dlaczego warto tam pojechać.
+      </p>
+    </section>
+
+    <section class="places" aria-label="Lista ulubionych miejsc">
+      <article class="place-card">
+        <img src="images/gora.svg" alt="Ilustracja wysokiej góry o wschodzie słońca">
+        <div class="place-card__body">
+          <p class="tag">Góry</p>
+          <h2>Szczyt Błękitnego Wiatru</h2>
+          <p>
+            Spokojna góra z szerokim widokiem na dolinę. Idealne miejsce na pieszą
+            wycieczkę i robienie zdjęć o poranku.
+          </p>
+          <ul>
+            <li>piękne widoki</li>
+            <li>cisza i świeże powietrze</li>
+            <li>szlak dla początkujących</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="place-card">
+        <img src="images/park.svg" alt="Ilustracja parku z alejką, drzewami i ławką">
+        <div class="place-card__body">
+          <p class="tag">Park</p>
+          <h2>Park Zielonych Latarenek</h2>
+          <p>
+            Duży park z alejkami, stawem i drewnianymi ławkami. Można tu odpocząć,
+            poczytać książkę albo urządzić rodzinny piknik.
+          </p>
+          <ul>
+            <li>dużo zieleni</li>
+            <li>miejsce na piknik</li>
+            <li>ścieżki rowerowe</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="place-card">
+        <img src="images/plaza.svg" alt="Ilustracja plaży z palmą, morzem i parasolem">
+        <div class="place-card__body">
+          <p class="tag">Plaża</p>
+          <h2>Plaża Słonecznych Muszli</h2>
+          <p>
+            Jasna plaża z ciepłym piaskiem i spokojną wodą. Dobre miejsce na
+            odpoczynek, budowanie zamków z piasku i oglądanie zachodu słońca.
+          </p>
+          <ul>
+            <li>ciepły piasek</li>
+            <li>spokojne morze</li>
+            <li>zachody słońca</li>
+          </ul>
+        </div>
+      </article>
+    </section>
+
+    <section class="how-to-edit" aria-labelledby="edit-title">
+      <h2 id="edit-title">Jak zmienić treść?</h2>
+      <p>
+        Otwórz plik <strong>index.html</strong> i zmień teksty w kartach.
+        Obrazki możesz podmienić w folderze <strong>images</strong>.
+      </p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Strona wykonana jako pierwszy projekt HTML + CSS.</p>
+  </footer>
+</body>
+</html>

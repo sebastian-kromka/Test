@@ -1,0 +1,84 @@
+Opis pliku index.html
+
+01: <!DOCTYPE html>
+    Opis: mówi przeglądarce, że to nowoczesny dokument HTML5.
+02: <html lang="pl">
+    Opis: rozpoczyna dokument HTML i ustawia język strony na polski.
+03: <head>
+    Opis: rozpoczyna część techniczną strony, niewidoczną bezpośrednio dla użytkownika.
+04:   <meta charset="UTF-8">
+    Opis: ustawia kodowanie znaków, żeby polskie litery działały poprawnie.
+05:   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    Opis: sprawia, że strona dobrze skaluje się na telefonach i komputerach.
+06:   <title>Moje ulubione miejsca</title>
+    Opis: ustawia tytuł karty w przeglądarce.
+07:   <link rel="stylesheet" href="style.css">
+    Opis: podłącza plik CSS, czyli wygląd strony.
+08: </head>
+    Opis: kończy sekcję head.
+09: <body>
+    Opis: rozpoczyna widoczną część strony.
+10:   <header>
+    Opis: rozpoczyna nagłówek strony.
+11:     <h1>Moje ulubione miejsca</h1>
+    Opis: wyświetla główny tytuł strony.
+12:     <p>Krótka strona o miejscach, które chciałbym odwiedzić.</p>
+    Opis: wyświetla krótki opis pod tytułem.
+13:   </header>
+    Opis: kończy nagłówek strony.
+14: [pusta linia]
+    Opis: pusta linia dla czytelności kodu.
+15:   <main>
+    Opis: rozpoczyna główną treść strony.
+16:     <section class="cards">
+    Opis: rozpoczyna sekcję z kartami miejsc; klasa cards będzie użyta w CSS.
+17:       <article class="card">
+    Opis: rozpoczyna pierwszą kartę miejsca; klasa card będzie użyta w CSS.
+18:         <div class="photo">🏔️</div>
+    Opis: tworzy pole na zdjęcie lub ikonę dla pierwszego miejsca.
+19:         <h2>Góra Srebrnego Szczytu</h2>
+    Opis: wyświetla nazwę pierwszego miejsca.
+20:         <p>Wysoka góra z pięknym widokiem na lasy i dolinę.</p>
+    Opis: wyświetla opis pierwszego miejsca.
+21:       </article>
+    Opis: kończy pierwszą kartę.
+22: [pusta linia]
+    Opis: pusta linia dla czytelności kodu.
+23:       <article class="card">
+    Opis: rozpoczyna drugą kartę miejsca.
+24:         <div class="photo">🌳</div>
+    Opis: tworzy pole na zdjęcie lub ikonę dla drugiego miejsca.
+25:         <h2>Park Zielonej Ławki</h2>
+    Opis: wyświetla nazwę drugiego miejsca.
+26:         <p>Spokojny park z alejkami, stawem i miejscem na piknik.</p>
+    Opis: wyświetla opis drugiego miejsca.
+27:       </article>
+    Opis: kończy drugą kartę.
+28: [pusta linia]
+    Opis: pusta linia dla czytelności kodu.
+29:       <article class="card">
+    Opis: rozpoczyna trzecią kartę miejsca.
+30:         <div class="photo">🏖️</div>
+    Opis: tworzy pole na zdjęcie lub ikonę dla trzeciego miejsca.
+31:         <h2>Plaża Złotych Muszli</h2>
+    Opis: wyświetla nazwę trzeciego miejsca.
+32:         <p>Szeroka plaża z ciepłym piaskiem i spokojnym morzem.</p>
+    Opis: wyświetla opis trzeciego miejsca.
+33:       </article>
+    Opis: kończy trzecią kartę.
+34:     </section>
+    Opis: kończy sekcję z kartami miejsc.
+35:   </main>
+    Opis: kończy główną treść strony.
+36: [pusta linia]
+    Opis: pusta linia dla czytelności kodu.
+37:   <footer>
+    Opis: rozpoczyna stopkę strony.
+38:     <p>Moja pierwsza strona HTML i CSS.</p>
+    Opis: wyświetla tekst w stopce.
+39:   </footer>
+    Opis: kończy stopkę strony.
+40: </body>
+    Opis: kończy widoczną część strony.
+41: </html>
+    Opis: kończy cały dokument HTML.

@@ -1,0 +1,158 @@
+Opis pliku style.css
+
+01: * {
+    Opis: rozpoczyna regułę dotyczącą wszystkich elementów na stronie.
+02:   box-sizing: border-box;
+    Opis: sprawia, że szerokość elementów łatwiej kontrolować, bo padding wlicza się w rozmiar.
+03: }
+    Opis: kończy regułę dla wszystkich elementów.
+04: [pusta linia]
+    Opis: pusta linia dla czytelności kodu.
+05: body {
+    Opis: rozpoczyna regułę dla całej widocznej strony.
+06:   margin: 0;
+    Opis: usuwa domyślny margines przeglądarki przy krawędziach strony.
+07:   font-family: Arial, sans-serif;
+    Opis: ustawia prostą czcionkę Arial, a gdy jej nie ma, dowolną bezszeryfową.
+08:   background: #f3f0e8;
+    Opis: ustawia jasne tło całej strony.
+09:   color: #222;
+    Opis: ustawia ciemny kolor tekstu.
+10: }
+    Opis: kończy regułę dla body.
+11: [pusta linia]
+    Opis: pusta linia dla czytelności kodu.
+12: header {
+    Opis: rozpoczyna regułę dla nagłówka strony.
+13:   padding: 40px 20px;
+    Opis: ustawia odstęp wewnętrzny nagłówka: 40 px góra/dół i 20 px boki.
+14:   text-align: center;
+    Opis: wyśrodkowuje tekst w nagłówku.
+15:   background: #2f6f4e;
+    Opis: ustawia zielone tło nagłówka.
+16:   color: white;
+    Opis: ustawia biały kolor tekstu w nagłówku.
+17: }
+    Opis: kończy regułę dla header.
+18: [pusta linia]
+    Opis: pusta linia dla czytelności kodu.
+19: header h1 {
+    Opis: rozpoczyna regułę dla tytułu h1 w nagłówku.
+20:   margin: 0 0 10px;
+    Opis: ustawia margines tytułu: bez góry, 10 px na dole.
+21:   font-size: 36px;
+    Opis: ustawia wielkość głównego tytułu.
+22: }
+    Opis: kończy regułę dla header h1.
+23: [pusta linia]
+    Opis: pusta linia dla czytelności kodu.
+24: header p {
+    Opis: rozpoczyna regułę dla akapitu w nagłówku.
+25:   margin: 0;
+    Opis: usuwa margines akapitu w nagłówku.
+26:   font-size: 18px;
+    Opis: ustawia wielkość tekstu pod tytułem.
+27: }
+    Opis: kończy regułę dla header p.
+28: [pusta linia]
+    Opis: pusta linia dla czytelności kodu.
+29: main {
+    Opis: rozpoczyna regułę dla głównej części strony.
+30:   max-width: 1000px;
+    Opis: ogranicza maksymalną szerokość treści do 1000 px.
+31:   margin: 0 auto;
+    Opis: wyśrodkowuje główną część strony.
+32:   padding: 20px;
+    Opis: ustawia odstęp wewnętrzny głównej części strony.
+33: }
+    Opis: kończy regułę dla main.
+34: [pusta linia]
+    Opis: pusta linia dla czytelności kodu.
+35: .cards {
+    Opis: rozpoczyna regułę dla kontenera z kartami.
+36:   display: grid;
+    Opis: włącza układ siatki CSS Grid.
+37:   grid-template-columns: 1fr;
+    Opis: na telefonie ustawia jedną kolumnę kart.
+38:   gap: 20px;
+    Opis: ustawia odstęp 20 px między kartami.
+39: }
+    Opis: kończy regułę dla .cards.
+40: [pusta linia]
+    Opis: pusta linia dla czytelności kodu.
+41: .card {
+    Opis: rozpoczyna regułę dla pojedynczej karty.
+42:   background: white;
+    Opis: ustawia białe tło karty.
+43:   border-radius: 16px;
+    Opis: zaokrągla rogi karty.
+44:   padding: 18px;
+    Opis: ustawia odstęp wewnętrzny karty.
+45:   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+    Opis: dodaje delikatny cień pod kartą.
+46: }
+    Opis: kończy regułę dla .card.
+47: [pusta linia]
+    Opis: pusta linia dla czytelności kodu.
+48: .photo {
+    Opis: rozpoczyna regułę dla pola zdjęcia lub ikony.
+49:   height: 170px;
+    Opis: ustawia wysokość pola zdjęcia.
+50:   display: flex;
+    Opis: włącza układ flex, żeby łatwo wyśrodkować zawartość.
+51:   align-items: center;
+    Opis: wyśrodkowuje zawartość pionowo.
+52:   justify-content: center;
+    Opis: wyśrodkowuje zawartość poziomo.
+53:   border-radius: 12px;
+    Opis: zaokrągla rogi pola zdjęcia.
+54:   background: #d9ead3;
+    Opis: ustawia jasnozielone tło pola zdjęcia.
+55:   font-size: 64px;
+    Opis: ustawia duży rozmiar ikony emoji.
+56: }
+    Opis: kończy regułę dla .photo.
+57: [pusta linia]
+    Opis: pusta linia dla czytelności kodu.
+58: .card h2 {
+    Opis: rozpoczyna regułę dla tytułów h2 wewnątrz kart.
+59:   margin: 16px 0 8px;
+    Opis: ustawia margines tytułu: 16 px od góry i 8 px od dołu.
+60:   font-size: 24px;
+    Opis: ustawia wielkość tytułu karty.
+61: }
+    Opis: kończy regułę dla .card h2.
+62: [pusta linia]
+    Opis: pusta linia dla czytelności kodu.
+63: .card p {
+    Opis: rozpoczyna regułę dla opisów w kartach.
+64:   margin: 0;
+    Opis: usuwa domyślny margines opisu.
+65:   line-height: 1.5;
+    Opis: ustawia wygodną wysokość linii tekstu.
+66: }
+    Opis: kończy regułę dla .card p.
+67: [pusta linia]
+    Opis: pusta linia dla czytelności kodu.
+68: footer {
+    Opis: rozpoczyna regułę dla stopki strony.
+69:   padding: 20px;
+    Opis: ustawia odstęp wewnętrzny stopki.
+70:   text-align: center;
+    Opis: wyśrodkowuje tekst w stopce.
+71:   color: #555;
+    Opis: ustawia szary kolor tekstu w stopce.
+72: }
+    Opis: kończy regułę dla footer.
+73: [pusta linia]
+    Opis: pusta linia dla czytelności kodu.
+74: @media (min-width: 700px) {
+    Opis: rozpoczyna regułę responsywną działającą od szerokości ekranu 700 px.
+75:   .cards {
+    Opis: rozpoczyna zmianę ustawień kontenera kart dla większego ekranu.
+76:     grid-template-columns: repeat(3, 1fr);
+    Opis: ustawia trzy równe kolumny kart na tablecie i komputerze.
+77:   }
+    Opis: kończy regułę dla .cards wewnątrz media query.
+78: }
+    Opis: kończy całą regułę responsywną.
